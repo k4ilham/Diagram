@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T03:34:27.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="8bHvVD5OEr0A-NRBx3Fi" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T04:39:40.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="umuUwFcG8a5YECTxKgsj" version="21.0.8" type="github">
   <diagram name="Page-1" id="rrrI3T4gwGB0hfDN0Znq">
     <mxGraphModel dx="1114" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -45,6 +45,12 @@
         </mxCell>
         <mxCell id="nPMw9zTdUB6mdBZy3sYk-87" value="Form : Jadwal Backup Database" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="nPMw9zTdUB6mdBZy3sYk-7" vertex="1">
           <mxGeometry x="60" y="780" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3KrNK9_17IE87Z7pZI_P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nPMw9zTdUB6mdBZy3sYk-7" source="3KrNK9_17IE87Z7pZI_P-1" target="nPMw9zTdUB6mdBZy3sYk-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3KrNK9_17IE87Z7pZI_P-1" value="Melalukan pengecekan proses backup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nPMw9zTdUB6mdBZy3sYk-7">
+          <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nPMw9zTdUB6mdBZy3sYk-8" value="MIS Head" style="swimlane;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="560" y="120" width="240" height="880" as="geometry" />
@@ -126,19 +132,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nPMw9zTdUB6mdBZy3sYk-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nPMw9zTdUB6mdBZy3sYk-25" target="nPMw9zTdUB6mdBZy3sYk-23" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="200" y="350" />
-              <mxPoint x="440" y="350" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nPMw9zTdUB6mdBZy3sYk-80" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nPMw9zTdUB6mdBZy3sYk-79" vertex="1" connectable="0">
-          <mxGeometry x="-0.2372" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="nPMw9zTdUB6mdBZy3sYk-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nPMw9zTdUB6mdBZy3sYk-25" target="nPMw9zTdUB6mdBZy3sYk-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -170,6 +163,19 @@
         </mxCell>
         <mxCell id="nPMw9zTdUB6mdBZy3sYk-90" value="&amp;nbsp; &amp;nbsp;Prosedur Pengelolaan Database" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3KrNK9_17IE87Z7pZI_P-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nPMw9zTdUB6mdBZy3sYk-25" target="3KrNK9_17IE87Z7pZI_P-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="350" />
+              <mxPoint x="440" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KrNK9_17IE87Z7pZI_P-3" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3KrNK9_17IE87Z7pZI_P-2">
+          <mxGeometry x="-0.28" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
